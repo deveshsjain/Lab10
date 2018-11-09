@@ -1,0 +1,35 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "This is Lab10",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshsjain/Lab10.git"
+  },
+  "author": "Jain, Devesh, 10435361",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deveshsjain/Lab10/issues"
+  },
+  "homepage": "https://github.com/deveshsjain/Lab10#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "guid": "0.0.12",
+    "mongodb": "^2.1.7",
+    "path": "^0.12.7",
+    "request-promise": "^2.0.0"
+  }
+}

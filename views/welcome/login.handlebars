@@ -1,0 +1,19 @@
+<article>
+    <header>
+        <h2>This is a cookie test page</h2>
+    </header>
+
+    <form id="login-form" method="post" action="/login" class="new-checker-form">
+        <label for="username">Username:</label>
+        <input type="text" id="uname" name="username" placeholder="username" class="full-width-input" value="{{username}}" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="pwd" name="password" placeholder="password" class="full-width-input" value="{{password}}" />
+
+        <button type="submit" class="btn btn-default">login</button>
+        
+        {{#unless status}}
+        <p>{{message}}</p>
+        {{/unless}}
+    </form>
+</article>
